@@ -1,9 +1,14 @@
 import React from "react";
 
+// Styles
+import styles from "./Css/Navigation.module.css"
+
 const Navigation = () => {
 	return (
-		<nav className='navigation-bar'>
-			<h2>Naslov</h2>
+		// Propmenii klase da budu dinamicne kada uradis css folder
+		<nav className={styles['navigation-bar']}>
+			<h2 className={styles['navigation-bar__title']}>Order Food</h2>
+			<button>Card Component</button>
 		</nav>
 	);
 };

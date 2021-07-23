@@ -1,0 +1,19 @@
+@import "../shared/config";
+@import "../shared/colors";
+
+.navigation-bar {
+	background-color: $mojo;
+	display: inline-flex;
+	justify-content: space-between;
+	width: 100%;
+	height: 100%;
+	color: $softPeach;
+
+	&__title {
+		margin: 0;
+		padding: 1rem;
+		color: $softPeach;
+		background-color: $mojo;
+		font-size: 2rem;
+	}
+}
